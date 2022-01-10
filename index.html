@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Awesome Books</title>
+    
+</head>
+<body>
+    <header class="header">
+        <p class="para">Awesome Books</p>     
+        <nav class="desktop-header">
+            <ul class="nav-list">
+                <li>
+                    <a class="link link-list" href="#">List</a>                    
+                </li>
+                <li>
+                    <a class="link link-new" href="#">Add new</a>                    
+                </li>
+                <li>
+                    <a class="link link-contact" href="#">Contact</a>                    
+                </li>                
+            </ul>
+        </nav>
+	</header>
+
+    <section class="sec ">
+    <h1 class="heading">All Awesome Books</h1>
+    <div class="book-container "></div>
+    </section>
+    <section class="sec1 hidden">
+    <div class="empty-div"></div>
+        <form class="form">
+            <h3 class="head3">Add a book here : 👇📘 </h3>
+            <ul class="ul-list">
+               <li><input id="title" class="title" type="text" placeholder="title" required> </li>
+               <li><input id="author" class="author" type="text" placeholder="author" required></li> 
+               <li class="btnAdd"><button class="add" >Add</button></li>
+            </ul>
+        </form>
+        <div class="errorMsg " id="errorMsg"></div>
+    </section>
+
+    <Section class="contact-section hidden">
+        <h4 class="head4">Contact information</h4>
+         <p>Do you have any questions or you just want to say "hello" ? You can Reach out to us </p>
+         <ul>
+             <li>Our e-mail <a href="#">book@mail.com</a></li>
+             <li>Our phone number is :  00445217892</li>
+             <li>Our address: StreetName:22, 84523, Alexandia, Egypt</li>
+         </ul>
+    </Section>
+    <footer class="footer">
+        <p>CopyRight</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
