@@ -18,9 +18,7 @@ it already displayed in the top of the page and can remove it by remove button.
 
 ## Live Demo
 
-[See My project Live here]()
-
-
+[See My project Live here](https://reem-lab.github.io/AwesomeBooks/)
 
 ## Authors
 
@@ -48,7 +46,7 @@ it already displayed in the top of the page and can remove it by remove button.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrRamoun/WEBDEV/issues).
+Feel free to check the [issues page](https://reem-lab.github.io/AwesomeBooks/issues).
 
 ## Show your support
 
